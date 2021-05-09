@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+C:\Users\Aquatic\source\repos\oop_lab_5.1I\oop_lab_5.1I\DigitString.h(11,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Aquatic\source\repos\oop_lab_5.1I\oop_lab_5.1I\DigitString.h(12,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     Creating library C:\Users\Aquatic\source\repos\oop_lab_5.1I\Debug\UnitTest1.lib and object C:\Users\Aquatic\source\repos\oop_lab_5.1I\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall DigitString::toString(void)const " (?toString@DigitString@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestToString(void)" (?TestToString@UnitTest1@1@QAEXXZ)
+UnitTest1.obj : error LNK2019: unresolved external symbol "public: void __thiscall DigitString::Init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Init@DigitString@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: void __thiscall UnitTest1::UnitTest1::TestToString(void)" (?TestToString@UnitTest1@1@QAEXXZ)
+UnitTest1.obj : error LNK2001: unresolved external symbol "private: static unsigned int Object::count" (?count@Object@@0IA)
+C:\Users\Aquatic\source\repos\oop_lab_5.1I\Debug\UnitTest1.dll : fatal error LNK1120: 3 unresolved externals
